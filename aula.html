@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Aulao 09</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <style>
+            body, html {
+                padding: 0;
+                margin: 0;
+                font-family: "Montserrat";
+                font-weight: 700;
+            }
+            header {
+                background-color: #2c3e50;
+                height: 100px;
+                position: fixed;
+                width: 100%;
+            }
+
+            a {
+               color: #fff;
+               text-decoration: none;
+               text-transform: uppercase; 
+            }
+
+            nav {
+                width: 1000px;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+            }    
+            .navbar-brand {
+               font-size: 30px;
+            }
+
+            ul {
+                list-style-type: none;
+            }
+
+            .menu-items {
+                display: flex;
+            }
+
+            .menu-items a {
+                padding: 15px;
+                font-size: 16px;
+                display: block;
+            }
+
+            .profile {
+               text-align: center; 
+               color: #fff;
+            }
+
+            .profile img {
+                width: 240px;
+            }
+
+            .profile-title {
+                font-size: 65px;
+            }
+
+            .profile-description {
+                font-size: 25px;
+            }
+
+            .profile-container {
+                background-color: #1abc9c;
+                display: flex;
+                justify-content: center;
+                padding-top: 200px;
+                padding-bottom: 50px;
+            }
+
+            .portfolio {
+                width: 1000px;
+                height: 100%;
+                margin: 0 auto;
+
+            }
+
+            .portfolio-title {
+                font-size: 50px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #2c3e50;
+
+            }
+
+            .portfolio-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .portfolio-container img {
+                width: 330px;
+                height: 240px;
+                margin:  20px;
+                border-radius: 10px;
+
+            }
+
+        </style>
+       
+    </head>
+   
+    <body>
+        <header>
+            <nav>
+                
+            
+            <a href="#" class="navbar-brand">Marcelo Pereira</a>
+            <ul class="menu-items">
+                <li><a href="a">Portfolio</a></li>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Contact</a></li>
+            </ul>
+           </nav>
+        </header>
+        <section class="profile-container">
+           <div class="profile">
+              <img src="imagens/profile2.svg" alt="profile">
+              <h1 class="profile-title">Marcelo Pereira</h1>
+              <h3 class="profile-description">Frontend - java - Springboot - javaScript</h3> 
+           </div>   
+        </section>
+        <section class="portfolio">
+            <h1 class="portfolio-title">PORTFOLIO</h1>
+            <div class="portfolio-container">
+            <img src="imagens/portfolio1.png" alt="">
+            <img src="imagens/portfolio2.png" alt="">
+            <img src="imagens/portfolio3.png" alt="">
+            <img src="imagens/portfolio4.png" alt="">
+            <img src="imagens/portfolio5.png" alt="">
+            <img src="imagens/portfolio6.png" alt="">
+           </div> 
+        </section>
+    </body>
+</html>
